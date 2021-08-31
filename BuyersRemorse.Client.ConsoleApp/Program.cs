@@ -25,15 +25,16 @@ namespace BuyersRemorse.Client.ConsoleApp
             Console.WriteLine("Press 1 to place an Order");
             Console.WriteLine("Press 2 to cancel the Order");
             Console.WriteLine("Press esc to exit");
-            
-            var orderId = Guid.NewGuid();
-            
+
+            Guid orderId = Guid.Empty;
+
             while (true)
             {
                 var result = Console.ReadKey(true);
 
                 if (result.Key == ConsoleKey.D1)
                 {
+                    orderId = Guid.NewGuid();
                     var placeOrder = new PlaceOrder { OrderId = orderId };
                     Console.WriteLine($"Sending CreateOrder with OrderId: {placeOrder.OrderId}");
                     await endpointInstance.Send(placeOrder).ConfigureAwait(false);
