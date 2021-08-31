@@ -22,8 +22,6 @@ namespace BuyersRemorse.Client.ConsoleApp
 
             var endpointInstance = await Endpoint.Start(endpointConfiguration).ConfigureAwait(false);
 
-            await Task.Delay(5000);
-
             Console.WriteLine("Press 1 to place an Order");
             Console.WriteLine("Press 2 to cancel the Order");
             Console.WriteLine("Press esc to exit");
