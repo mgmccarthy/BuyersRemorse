@@ -1,0 +1,20 @@
+{
+  "NServiceBus.SagaId": "180fc224-980e-c345-fac7-dcbb36fe877f",
+  "NServiceBus.IsSagaTimeoutMessage": "True",
+  "NServiceBus.SagaType": "BuyersRemorse.Endpoint.BuyersRemorseSaga, BuyersRemorse.Endpoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.MessageId": "cc8712d0-3c9a-4249-82c6-ad9500252905",
+  "NServiceBus.MessageIntent": "Send",
+  "NServiceBus.RelatedTo": "43a67c11-5b1f-4f22-b992-ad95002528ee",
+  "NServiceBus.ConversationId": "c01b1b91-0f1f-4256-b86d-ad95002528c2",
+  "NServiceBus.CorrelationId": "404f2006-6367-4ad8-979b-ad95002528c1",
+  "NServiceBus.OriginatingSagaId": "180fc224-980e-c345-fac7-dcbb36fe877f",
+  "NServiceBus.OriginatingSagaType": "BuyersRemorse.Endpoint.BuyersRemorseSaga, BuyersRemorse.Endpoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.ReplyToAddress": "BuyersRemorse.Endpoint",
+  "NServiceBus.OriginatingMachine": "LAPTOP-8HT0PS97",
+  "NServiceBus.OriginatingEndpoint": "BuyersRemorse.Endpoint",
+  "$.diagnostics.originating.hostid": "67589606463025845f8be0e307e8e3a1",
+  "NServiceBus.ContentType": "text\/xml",
+  "NServiceBus.EnclosedMessageTypes": "BuyersRemorse.Endpoint.BuyersRemorseSaga+TimeoutState, BuyersRemorse.Endpoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.Version": "7.5.0",
+  "NServiceBus.TimeSent": "2021-08-31 02:15:17:781791 Z"
+}
